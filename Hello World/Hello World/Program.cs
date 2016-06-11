@@ -10,13 +10,6 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(exR2(6));
-            Console.ReadKey();
-        }
-        public static string exR2(int n)
-        {
-            if (n < 0) return "";
-            return exR2(n - 3) + n + exR2(n - 2) + n;
         }
     }
 }
